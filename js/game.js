@@ -1,9 +1,10 @@
+/*global Phaser */
+
 // Copyright (c) 2020 Mr. Coxall All rights reserved
 //
 // Created by: Adrina peighambarzadeh
 // Created on: Apr 2025
 // This is the PHASER3 game configuration file
- 
 /**
  * Start Phaser Game.
  */
@@ -19,7 +20,7 @@ const config = {
   },
   // set background color
   backgroundColor: 0x5f6e7a,
-  scale: {
+  scale:{
     mode: Phaser.Scale.FIT,
     // we place it in the middle of the page.
     autoCenter: Phaser.Scale.CENTER_BOTH,
