@@ -7,7 +7,7 @@
 // This is the Phaser3 game configuration file
 
 // scene import statements
-import SplashScene from "./splashScene.js"
+import SplashScene from "./'splashScene.js'"
 import TitleScene from "./titleScene.js"
 
 //creat the new scenes
