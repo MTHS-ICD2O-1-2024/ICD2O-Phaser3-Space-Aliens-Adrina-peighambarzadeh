@@ -1,15 +1,22 @@
 /* global Phaser */
+
 // Copyright (c) 2025 Adrina peighambarzadeh All rights reserved
 //
 // Created by: Adrina peighambarzadeh
 // Created on: Apr 2025
 // This is the Phaser3 game configuration file
+
+// scene import statements
 import SplashScene from "./splashScene.js"
-//* Game scene */
+import TitleScene form "./titleScene.js"
+
+//creat the new scenes
 const splashScene = new SplashScene()
+const titleScene = new titleScene()
+
 /**
-* Start Phaser Game.
-*/
+ * Start phaser Game.
+ */
 const config = {
   type: Phaser.AUTO,
   width: 1920,
@@ -31,10 +38,12 @@ const config = {
 }
 
 const game = new Phaser.Game(config)
-
 // console.log(game)
+
 // load scenes
 // Note: remember any "key" is global and CANNOT be reused
 game.scene.add("splashScene", splashScene)
+game.scene.add("titleScene", titleScene)
+
 // the start scene
 game.scene.start("splashScene")
