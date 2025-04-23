@@ -5,53 +5,48 @@
 // Created by: Adrina peighambarzadeh
 // Created on: Apr 2025
 // This is the Phaser3 game configuration file
+
 /**
-* This class is the Splash Scene.
-*/
+ * This class is the Splash Scene.
+ */
 class SplashScene extends Phaser.Scene {
   /**
-    * This method is the constructor.
-    */
+   * This method is the constructor.
+   */
   constructor() {
-    super({ key: "splashScene" })
+    super({ key: 'splashScene' })
   }
-  
+
   /**
-  * Can be defined on your own Scenes.
-  * This method is called by the Scene Manager when the scene starts,
-  *  before preload() and create().
-  * @param {object} data - Any data passed via ScenePlugin.add() or ScenePlugin.start().
-  */
+   * Called when the scene starts, before preload() and create().
+   * @param {object} data - Any data passed via ScenePlugin.add() or ScenePlugin.start().
+   */
   init(data) {
-    this.cameras.main.setBackgroundColor("ffffff")
+    this.cameras.main.setBackgroundColor('ffffff')
   }
 
   /**
-  * Can be defined on your own Scenes.
-  * Use it to load assets.
-  */
+   * Load assets.
+   */
   preload() {
-    console.log("SplashScene")
+    console.log('SplashScene')
   }
 
   /**
-  * Can be defined on your own Scenes.
-  * Use it to create your game objects.
-  * @param {object} data - Any data passed via ScenePlugin.add() or ScenePlugin.start().
-
-  */
+   * Create your game objects.
+   * @param {object} data - Data passed to scene.
+   */
   create(data) {
-    //pass
+    // pass
   }
 
   /**
-   * Should be overridden by your own Scenes.
-   * This method is called once per game step while the scene is running.
-   * @pram {number} time - The current time.
-   *  @param {number} - The delta time in ms since the last frame.
+   * Called once per game step while the scene is running.
+   * @param {number} time - Current time.
+   * @param {number} delta - Time since last frame.
    */
   update(time, delta) {
-     this.scene.switch("titleScene")
+    this.scene.switch('titleScene')
     // pass
   }
 }
