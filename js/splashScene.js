@@ -47,10 +47,11 @@ class SplashScene extends Phaser.Scene {
   /**
    * Should be overridden by your own Scenes.
    * This method is called once per game step while the scene is running.
-   *  @param {number} time - The current time.
+   * @pram {number} time - The current time.
    *  @param {number} - The delta time in ms since the last frame.
    */
   update(time, delta) {
+     this.scene.switch("titleScene")
     // pass
   }
 }
