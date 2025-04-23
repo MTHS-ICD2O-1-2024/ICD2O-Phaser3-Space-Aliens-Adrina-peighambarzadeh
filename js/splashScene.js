@@ -13,7 +13,7 @@ class SplashScene extends Phaser.Scene {
   /**
    * This method is the constructor.
    */
-  constructor() {
+  constructor () {
     super({ key: 'splashScene' })
   }
 
@@ -21,14 +21,14 @@ class SplashScene extends Phaser.Scene {
    * Called when the scene starts, before preload() and create().
    * @param {object} data - Any data passed via ScenePlugin.add() or ScenePlugin.start().
    */
-  init(data) {
+  init (data) {
     this.cameras.main.setBackgroundColor('ffffff')
   }
 
   /**
    * Load assets.
    */
-  preload() {
+  preload () {
     console.log('SplashScene')
   }
 
@@ -36,7 +36,7 @@ class SplashScene extends Phaser.Scene {
    * Create your game objects.
    * @param {object} data - Data passed to scene.
    */
-  create(data) {
+  create (data) {
     // pass
   }
 
@@ -45,7 +45,7 @@ class SplashScene extends Phaser.Scene {
    * @param {number} time - Current time.
    * @param {number} delta - Time since last frame.
    */
-  update(time, delta) {
+  update (time, delta) {
     this.scene.switch('titleScene')
     // pass
   }
