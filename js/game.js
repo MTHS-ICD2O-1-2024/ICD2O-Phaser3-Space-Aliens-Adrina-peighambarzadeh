@@ -27,14 +27,17 @@ const config = {
       debug: true
     }
   },
+   // set background color
   backgroundColor: 0xffffff,
   scale: {
     mode: Phaser.Scale.FIT,
+    // we place it in the middle of the page.
     autoCenter: Phaser.Scale.CENTER_BOTH
   }
 }
 
 const game = new Phaser.Game(config)
+//console.log(game)
 
 // Load scenes
 // Note: remember any 'key' is global and CANNOT be reused
