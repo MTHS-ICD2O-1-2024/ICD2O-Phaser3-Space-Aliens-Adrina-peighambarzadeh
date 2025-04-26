@@ -1,46 +1,30 @@
 /* global Phaser */
-
 // Copyright (c) 2025 Adrina peighambarzadeh All rights reserved
 //
 // Created by: Adrina peighambarzadeh
 // Created on: Apr 2025
 // This is the Phaser3 game configuration file
-
 /**
-
 * This class is the Splash Scene.
-
 */
 
 class SplashScene extends Phaser.Scene {
   /**
-
   * This method is the constructor.
-
   */
-
   constructor() {
     super({ key: "splashScene" })
-
-    this.splashSceneBackground = null
+    this.splashSceneBackground = this.splashSceneBackgroundImage.png
   }
-
   /**
-
   * Can be defined on your own Scenes.
-
   * This method is called by the Scene Manager when the scene starts,
-
   *  before preload() and create().
-
   * @param {object} data - Any data passed via ScenePlugin.add() or ScenePlugin.start().
-
   */
-
   init(data) {
     this.cameras.main.setBackgroundColor("ffffff")
   }
-
   /**
 
   * Can be defined on your own Scenes.
