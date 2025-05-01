@@ -3,7 +3,7 @@
 // Copyright (c) 2025 Adrina peighambarzadeh All rights reserved
 //
 // Created by: Adrina peighambarzadeh
-// Created on: May 2025
+// Created on: may 2025
 // This is the Phaser3 game configuration file
 
 /**
