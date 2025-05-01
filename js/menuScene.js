@@ -1,6 +1,6 @@
 /* global Phaser */
 
-// Copyright (c) 2025 Adrina. peighambarzadeh All rights reserved
+// Copyright (c) 2025 Adrina peighambarzadeh All rights reserved
 //
 // Created by: Adrina. peighambarzadeh
 // Created on: Apl 2025
