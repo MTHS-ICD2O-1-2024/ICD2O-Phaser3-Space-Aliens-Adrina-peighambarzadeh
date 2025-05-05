@@ -1,5 +1,5 @@
 /* global Phaser */
-// Copyright (c) 2025 Ain Jeong All rights reserved
+// Copyright (c) 2025 Adrina peighambarzadeh All rights reserved
 //
 // Created by: Adrina peighambarzadeh
 // Created on: Apr 2025
