@@ -3,7 +3,7 @@
 // Copyright (c) 2025 Adrina peighambarzadeh All rights reserved
 //
 // Created by: Adrina peighambarzadeh
-// Created on: may 2025
+// Created on: Apr 2025
 // This is the Phaser3 game configuration file
 
 /**
@@ -21,7 +21,7 @@ class TitleScene extends Phaser.Scene {
     this.titleSceneTextStyle = {
       font: '200px Times',
       fill: '#fde4b9',
-      align: 'center',
+      align: 'center'
     }
   }
 
@@ -68,10 +68,11 @@ class TitleScene extends Phaser.Scene {
      *  @param {number} delta - The delta time in ms since the last frame.
      */
   update (time, delta) {
-  if (time > 6000) {
+    if (time > 6000) {
       this.scene.switch('menuScene')
     }
   }
 }
 
 export default TitleScene
+
