@@ -113,6 +113,4 @@ class GameScene extends Phaser.Scene {
     if (keySpaceObj.isUp === true) {
       this.fireMissile = false
     }
-    this.missileGroup.children.each(function
- 
- 
+    this.missileGroup.children.each(function)
